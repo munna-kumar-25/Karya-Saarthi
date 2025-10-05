@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react'
 import './Navbar.css'
 import logo from '../../assets/logo.png'
 import menu_icon from '../../assets/menu-icon.png'
-import { set } from 'mongoose'
+// import { set } from 'mongoose'
+import mongoose from 'mongoose';
 import { Link } from 'react-scroll'
 
 
